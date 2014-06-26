@@ -1,6 +1,22 @@
 # Set architecture flags
 export ARCHFLAGS="-arch x86_64"
-# Ensure user-installed binaries take precedence
-export PATH=/usr/local/bin:$PATH
-# Load .bashrc if it exists
-test -f ~/.bashrc && source ~/.bashrc
+
+# aws
+export AWS_CREDENTIAL_FILE=$HOME/.aws/config
+
+export EDITOR=/Users/nifl/Applications/Sublime\ Text.app/Contents/MacOS/Sublime\ Text
+
+# node
+# export NODE_PATH=/usr/local/lib/node_modules/
+
+# java
+# export JAVA_HOME="$(/usr/libexec/java_home)"
+
+#+++++++++++++++++++
+#  Wondering where $PATH is? 
+#+++++++++++++++++++
+# Using path_helper @ /etc/profile + /etc/paths + /etc/paths.d
+# export PATH="$HOME/some/path:/another/path:$PATH"
+
+# Manpaths are defined in /etc/manpaths + /etc/manpaths.d
+# export MANPATH=/usr/local/man:/usr/share/man
