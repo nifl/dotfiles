@@ -21,11 +21,11 @@ color_my_prompt
 
 # Bash
 function dotfiles {
-  subl $HOME/.bash*
-  subl $HOME/.profile
+  $EDITOR $HOME/.dotfiles/.bash*
+  $EDITOR $HOME/.dotfiles/.profile
 }
-alias a='$EDITOR $HOME/.bashrc'
 alias d='dotfiles'
+alias dot='cd $HOME/.dotfiles'
 alias h='history'
 alias s='source $HOME/.bash_profile'
 
@@ -100,10 +100,8 @@ alias omamp="open http://localhost/MAMP/?language=English"
 # Places
 ## Dev
 ### Project Folders
-alias sb='cd $HOME/Projects/SB/'
-alias ehb='cd $HOME/Projects/SB/ehb'
-alias nunu-ee="cd /Applications/MAMP/htdocs/nunusaku-ee"
-alias nunu-com="cd /Applications/MAMP/htdocs/nunusaku-ee"
+
+alias nunu="cd /Applications/MAMP/htdocs/com.nunusaku"
 alias pony='cd $HOME/Projects/ACE/pony'
 alias sparkle='cd $HOME/Code/sparkle'
 
