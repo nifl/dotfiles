@@ -4,7 +4,7 @@ export ARCHFLAGS="-arch x86_64"
 # aws
 export AWS_CREDENTIAL_FILE=$HOME/.aws/config
 
-export EDITOR=/Users/nifl/Applications/Sublime\ Text.app/Contents/MacOS/Sublime\ Text
+export EDITOR='sublime'
 
 # node
 # export NODE_PATH=/usr/local/lib/node_modules/
