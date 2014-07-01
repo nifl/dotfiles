@@ -1,4 +1,4 @@
-# Terminal.app color
+ # Terminal.app color
 CLICOLOR=1
 
 # List export colors
@@ -30,7 +30,6 @@ alias h='history'
 alias s='source $HOME/.bash_profile'
 
 # Dir navigation
-alias ~='cd ~'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
@@ -53,8 +52,6 @@ function mkcd { mkdir -pv "$1" && cd "$1"; }
 function mkgit { mkcd "$1" && git init; }
 alias md='mkdir -p'
 alias rd='rmdir'
-
-
 
 # Servers
 ## Host configuration
@@ -107,11 +104,8 @@ alias sparkle='cd $HOME/Code/sparkle'
 
 ## Remote
 # don't forget you have a config file @ ~/.ssh/config
-# so this means instead of using the following aliases
-# you can use
-# $ ssh comet
-# $ ssh pony
-# $ ssh truth
+alias aws-nunu='ssh nunusaku -v -t "cd /var/app/current; bash --login"'
+
 alias aws-comet='ssh comet -v -t "cd /usr/share/tomcat7/webapps/ROOT/; bash --login"'
 alias aws-pony='ssh pony -v -t "cd /usr/share/tomcat7/webapps/ROOT/; bash --login"'
 
@@ -129,7 +123,7 @@ alias gk='gitk --all&'
 alias gx='gitx --all'
 
 ## Sublime Text
-alias subl-pkg='cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages'
+alias sublime-pkg='cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages'≥
 
 ## Ruby
 alias repow='touch ~/.pow/restart.txt'

@@ -1,10 +1,14 @@
 # Set architecture flags
 export ARCHFLAGS="-arch x86_64"
 
-# aws
-export AWS_CREDENTIAL_FILE=$HOME/.aws/config
+# This is my editor. There are many like it, but this one is mine.
+export EDITOR="sublime"
 
-export EDITOR='sublime'
+# aws
+export AWS_CREDENTIAL_FILE=$HOME/.elasticbeanstalk/aws_credential_file
+export ELASTICBEANSTALK_URL="https://elasticbeanstalk.us-west-2.amazonaws.com" 
+
+
 
 # node
 # export NODE_PATH=/usr/local/lib/node_modules/
