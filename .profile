@@ -11,14 +11,14 @@ export ELASTICBEANSTALK_URL="https://elasticbeanstalk.us-west-2.amazonaws.com"
 
 
 # node
-# export NODE_PATH=/usr/local/lib/node_modules/
+export NODE_PATH=/usr/local/lib/node_modules/
 
 # java
 # export JAVA_HOME="$(/usr/libexec/java_home)"
 
-#+++++++++++++++++++
-#  Wondering where $PATH is? 
-#+++++++++++++++++++
+#+++++++++++++++++++++++++++++#
+#  Wondering where $PATH is?  #
+#+++++++++++++++++++++++++++++#
 # Using path_helper @ /etc/profile + /etc/paths + /etc/paths.d
 # export PATH="$HOME/some/path:/another/path:$PATH"
 

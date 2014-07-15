@@ -1,5 +1,4 @@
 #!/bin/bash
-#
 
 # Load .profile if it exists [paths]
 test -f ~/.profile && source ~/.profile

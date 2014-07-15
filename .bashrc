@@ -1,4 +1,4 @@
- # Terminal.app color
+# Terminal.app color
 CLICOLOR=1
 
 # List export colors
@@ -9,8 +9,8 @@ export TERM=xterm-color
 
 # Prompt
 function color_my_prompt {
-    # local __user_and_host="\[\033[01;34m\]\u@\h"
-    # local __cur_location="\[\033[01;34m\]\w"
+    local __user_and_host="\[\033[01;34m\]\u@\h"
+    local __cur_location="\[\033[01;34m\]\w"
     local __git_branch_color="\[\033[36m\]"
     local __git_branch='[\W$(__git_ps1 " (%s)")]\n'
     local __prompt_tail="\[\033[32m\]$"
